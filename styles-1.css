@@ -1,0 +1,12 @@
+:root{
+    --verde-salvia: #A3C1AD;
+    --verde-claro: #C1E1C1;
+    --crema: #F5F5DC;
+    --crema-oscuro: #E0D8B0;
+    --texto: #2c3e35;
+    --texto-suave: #34495e;
+    --blanco: #ffffff;
+    --sombra: 0 2px 8px rgba(0, 0, 0, 0.1);
+    --raio: 16px;
+    --transicion: all 0.3s ease;
+}
