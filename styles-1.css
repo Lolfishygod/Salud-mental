@@ -10,3 +10,84 @@
     --raio: 16px;
     --transicion: all 0.3s ease;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--crema);
+    color: var(--texto);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--verde-salvia);
+    text-decoration: none;
+    transition: var(--transicion);
+}
+
+a:hover {
+    color: var(--verde-claro);
+}
+img{
+    max-width: 100%;
+}
+
+/* Estilos para el encabezado */
+
+.encabezado {
+    position: sticky;
+    top: 0;
+    background: rgba(245, 240, 232, 0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--crema-oscuro);
+    z-index: 100;
+}
+
+.nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Georgia', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--verde-salvia);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--texto-suave);
+    transition: var(--transicion);
+}
+
+.nav-links a:hover {
+    color: var(--verde-salvia);
+    text-decoration: underline;
+}
+
+.nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--texto-suave);
+    cursor: pointer;
+}
+
+/* Estilos
