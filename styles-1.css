@@ -90,4 +90,56 @@ img{
     cursor: pointer;
 }
 
-/* Estilos
+/* Estilos hero*/
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem 1.5rem;
+    max-width: 1200px;
+    position: relative;
+    gap: 2rem;
+}
+
+
+.hero-contenido{
+    flex: 1;
+}
+
+.hero-etiqueta {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--verde-salvia);
+    margin-bottom: 1rem;
+}
+
+.hero-titulo {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--texto);
+}
+
+.hero-desc{
+    max-width: 600px;
+    color: var(--texto-suave);
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-deco{
+    max-width: 400px;
+    color: var(--verde-suave);
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.hero-deco{
+    flex: 1;
+    min-height: 300px;
+    background: radial-gradient(circle at center, var(--verde-claro) 0% transparent 70%);
+    border-radius: 50%;
+    opacity: 0.5;
+}
